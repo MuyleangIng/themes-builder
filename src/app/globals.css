@@ -1,27 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+/*body {*/
+/*    background: ${({ theme }) => theme.colors.body};*/
+/*color: ${({ theme }) => theme.colors.text};*/
+/*font-family: ${({ theme }) => theme.font};*/
+/*transition: all 0.50s linear;*/
+/*}*/
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+/*a {*/
+/*    color: ${({ theme }) => theme.colors.link.text};*/
+/*cursor: pointer;*/
+/*}*/
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/*button.btn {*/
+/*    background-color: ${({ theme }) => theme.colors.button.background};*/
+/*color: ${({ theme }) => theme.colors.button.text};*/
+/*}*/
+
+/*button.cancel {*/
+/*    background-color: #ff0000;*/
+/*    color: ${({ theme }) => theme.colors.button.text};*/
+/*}*/
+
+/*button:disabled {*/
+/*    background-color: #ebebeb;*/
+/*    color: #333333;*/
+/*}*/
+
+/*button {*/
+/*    border: 0;*/
+/*    display: inline-block;*/
+/*    padding: 12px 24px;*/
+/*    font-size: 14px;*/
+/*    border-radius: 4px;*/
+/*    margin-top: 5px;*/
+/*    cursor: pointer;*/
+/*    background-color: #1064EA;*/
+/*    color: #FFFFFF;*/
+/*    font-family: ${({ theme }) => theme.font};*/
+/*}*/
